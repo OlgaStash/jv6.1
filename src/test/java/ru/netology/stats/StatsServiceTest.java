@@ -48,7 +48,7 @@ class StatsServiceTest {
     void shouldCalculateCountMonthAboveAverSale() {
         StatsService service = new StatsService();
         int[] monthSales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        int expected = 9;
+        int expected = 5;
 
         int actual = service.countAboveAver(monthSales);
         assertEquals(expected, actual);
@@ -57,7 +57,7 @@ class StatsServiceTest {
     void shouldCalculateCountMonthBelowAverSale() {
         StatsService service = new StatsService();
         int[] monthSales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        int expected = 9;
+        int expected = 5;
 
         int actual = service.countBelowAver(monthSales);
         assertEquals(expected, actual);
