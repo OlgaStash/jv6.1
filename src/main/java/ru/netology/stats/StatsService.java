@@ -1,6 +1,6 @@
 package ru.netology.stats;
 
-public class StatsService<monthSales> {
+public class StatsService {
 
 
     public int sales(int[] monthSales) {
